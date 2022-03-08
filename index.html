@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BREAD BLUE</title>
+    <link rel="stylesheet" href="css/swiper.css" type="text/css">
+    <link rel="stylesheet" href="css/all.css" type="text/css">
+    <link rel="stylesheet" href="css/common.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/default.js"></script>
+    <script>
+        $(function () {
+            var swiper = new Swiper('.swiper-container', {
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+                sliderPerView: 1,
+                spaceBetween: 15,
+                loop: true,
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false,
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header id="header">
+            <div class="in">
+                <h1 class="logo">
+                    <a href="#">
+                        <img src="images/logo.png" alt="THE BREAD BLUE에 오신 것을 환영합니다">
+                    </a>
+                </h1>
+                <nav class="nav">
+                    <ul class="cl gnb">
+                        <li><a href="#">브랜드스토리</a></li>
+                        <li><a href="#">매장정보</a></li>
+                        <li><a href="#">구매하기</a>
+                            <ul class="lnb">
+                                <li><a href="#">베이커리</a></li>
+                                <li><a href="#">디저트</a></li>
+                                <li><a href="#">정기배송</a></li>
+                                <li><a href="#">MD</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">리뷰</a></li>
+                        <li><a href="#">이벤트</a></li>
+                        <li><a href="#">공지사항</a></li>
+                    </ul>
+                </nav>
+                <div class="top_menu">
+                    <ul class="top_list">
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-users"></i>
+                                로그인
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-edit"></i>
+                                회원가입
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                                장바구니
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div id="visual">
+            <div class="slider">
+                <div class="swiper-container">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide vis1">
+                            <div class="vis_txt">
+                                <p>크럼블과 통밀의 달콤한 만남</p>
+                                <h2>달콤 통밀 크럼블</h2>
+                                <a href="#" class="btn buy">구매하기 &gt;</a>
+                            </div>
+                        </li>
+                        <li class="swiper-slide vis2">
+                            <div class="vis_txt">
+                                <p>당신과 함께 건강과 환경을 생각하는 브랜드</p>
+                                <h2>THE BREAD BLUE</h2>
+                                <a href="#" class="btn view">BRAND STORY &gt;</a>
+                            </div>
+                        </li>
+                        <li class="swiper-slide vis3">
+                            <div class="vis_txt">
+                                <p>맛있게 즐기기 딱 좋은 26cm!</p>
+                                <h2>블루 비건 피자</h2>
+                                <a href="#" class="btn buy">구매하기 &gt;</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+        <main id="main">
+            <section class="section intro">
+                <div class="in">
+                    <div class="intro_area">
+                        <div class="intro_txt">
+                            <h2>THE BREAD BLUE.</h2>
+                            <p>100% 식물성 재료만으로 맛있는 빵을 만드는 비건 베이커리입니다.</p>
+                            <p>건강하고 맛있는 빵은 좋은 재료에서부터 시작됩니다. <br>
+                                더브레드블루만의 노하우로 탄생한 천연발효종 빵을 만나보세요.</p>
+                        </div>
+                        <ul class="intro_list">
+                            <li>
+                                <a href="#">
+                                    <div class="pic">
+                                        <img src="images/intro_1.jpg" alt="정기배송 신청">
+                                    </div>
+                                    <div class="txt">
+                                        <h3>정기배송 신청하기</h3>
+                                        <p>건강하고 맛있는 빵을 매주 받아 보세요.</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="pic">
+                                        <img src="images/intro_2.jpg" alt="브레드 블루 회원만이 누릴 수 있는 이벤트">
+                                    </div>
+                                    <div class="txt">
+                                        <h3>[EVENT]</h3>
+                                        <p>브레드 블루 회원만이 누릴 수 있는 이벤트!</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="pic">
+                                        <img src="images/intro_3.jpg" alt="HACCP 인증 획득">
+                                    </div>
+                                    <div class="txt">
+                                        <h3>HACCP 인증 획득!</h3>
+                                        <p>철저한 위생관리로 안전한 빵을 제공하겠습니다.</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="section story">
+                <div class="in">
+                    <div class="story_pic"></div>
+                    <div class="story_txt">
+                        <h3>더브레드블루가 드리는 일상 속의 작은 행복</h3>
+                        <p>누구나 일상 속의 달콤함을 누릴 자격이 있다는 신념에서 시작한 <strong>더브레드블루</strong>는 재료에 대한 걱정이나 의심 없이 건강한 방법으로 자유롭게
+                            일상의 달콤함을 느낄 수 있기를 바랍니다.</p>
+                        <p>#비건 #건강 #환경</p>
+                        <a href="#" class="btn">BRAND STORY &gt;</a>
+                    </div>
+                </div>
+            </section>
+            <section class="section best">
+                <div class="in">
+                    <ul class="best_area">
+                        <li>
+                            <a href="#">
+                                <div class="pic">
+                                    <img src="images/best_1.jpg" alt="어니언 인 통밀">
+                                </div>
+                                <div class="mask">
+                                    <p><i class="fas fa-shopping-cart"></i>담기</p>
+                                </div>
+                                <div class="txt">
+                                    <h3>어니언 인 통밀</h3>
+                                    <p>5,500원</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="pic">
+                                    <img src="images/best_2.jpg" alt="생크림 케이크">
+                                </div>
+                                <div class="mask">
+                                    <p><i class="fas fa-shopping-cart"></i>담기</p>
+                                </div>
+                                <div class="txt">
+                                    <h3>생크림 케이크</h3>
+                                    <p>33,000원</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="pic">
+                                    <img src="images/best_3.jpg" alt="갈릭 바게트">
+                                </div>
+                                <div class="mask">
+                                    <p><i class="fas fa-shopping-cart"></i>담기</p>
+                                </div>
+                                <div class="txt">
+                                    <h3>갈릭 바게트</h3>
+                                    <p>3,900원</p>
+                                    <img src="images/recommend.jpg" alt="추천 상품">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="pic">
+                                    <img src="images/best_4.jpg" alt="블루 비건 피자">
+                                </div>
+                                <div class="mask">
+                                    <p><i class="fas fa-shopping-cart"></i>담기</p>
+                                </div>
+                                <div class="txt">
+                                    <h3>블루 비건 피자</h3>
+                                    <p>15,900원</p>
+                                    <img src="images/recommend.jpg" alt="추천 상품">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="pic">
+                                    <img src="images/best_5.jpg" alt="시나몬말이야">
+                                </div>
+                                <div class="mask">
+                                    <p><i class="fas fa-shopping-cart"></i>담기</p>
+                                </div>
+                                <div class="txt">
+                                    <h3>시나몬말이야</h3>
+                                    <p>4,900원</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="pic">
+                                    <img src="images/best_6.jpg" alt="달콤 통밀 크럼블">
+                                </div>
+                                <div class="mask">
+                                    <p><i class="fas fa-shopping-cart"></i>담기</p>
+                                </div>
+                                <div class="txt">
+                                    <h3>달콤 통밀 크럼블</h3>
+                                    <p>4,900원</p>
+                                    <img src="images/recommend.jpg" alt="추천 상품">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <footer id="footer">
+            <div class="in">
+                <div class="footer_top">
+                    <ul class="gnb">
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">고객센터</a></li>
+                        <li><a href="#">MEMBERSHIP</a></li>
+                        <li><a href="#">STORES</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                    </ul>
+                </div>
+                <div class="footer_bottom">
+                    <p>상호 주식회사더브레드블루 대표 문동진</p>
+                    <p>사업자등록번호 503-88-00851</p>
+                    <p>통신판매업 신고 제 2018-서울구로-1563호 [사업자정보확인]</p>
+                    <p>전화 02-866-0723</p>
+                    <p>주소 : 서울특별시 구로구 디지털로31길 20 (구로동) 에이스테크노타워5차 1210호</p>
+                    <p>&copy; THE BREAD BLUE. ALL RIGHTS RESERVED.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="quick_menu">
+        <ul class="menu_list">
+            <li>
+                <a href="#">
+                    <i class="fas fa-comments"></i>
+                    카카오톡 상담
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-instagram-square"></i>
+                    인스타그램
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-shopping-cart"></i>
+                    장바구니
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="top">
+        <i class="fas fa-sort-up"></i>
+    </div>
+</body>
+
+</html>
